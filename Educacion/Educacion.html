@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Educaión</title>
+  </head>
+  <body>
+    <header>
+     <h1>Currículum VITAE</h1>
+     <h2>Datos Personales</h2>
+     <strong>Nombres:</strong>  Darwing Mauricio
+     <br>
+     <strong>Apellidos:</strong> Hernández Gutiérrez
+   </header>
+
+   <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../experiencia/experiencia.html">Experiencia</a></li>
+      </ul>
+   </nav>
+   <h2>Educación</h2>
+
+  <p>
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+
+    <tbody>
+      <tr>
+        <td>2011</td>
+        <td>E. Normal mixta del Sur</td>
+        <td>Choluteca</td>
+        <td>Sí</td>
+      </tr>
+
+      <tr>
+        <td>2016</td>
+        <td>UPNFM</td>
+        <td>Choluteca</td>
+        <td>Sí</td>
+      </tr>
+    </tbody>
+    </table>
+  </p>
+
+
+   <form name="estudios">
+       <fieldset>
+         <legend><b>Agregar Estudios</b></legend>
+
+         <label for="año">Año</label>
+         <select name="año" required>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+         </select>
+         <br><br>
+
+       <label for="instiuion">Institución</label>
+       <input type="text" name="institucion" value=""placeholder="Escirbe el nombre de la Institución" required>
+       <br><br>
+
+
+       <label for="Lugar">Esriba el lugar de la Instituión</label><br>
+       <textarea name="lugar" rows="2" cols="80" placeholder="Especifique bien el lugar de la instituión"></textarea>
+       <br><br>
+
+       <label for="culmino">¿Culminó?</label><br>
+       <input type="radio" name="culmino" value="">Si
+       <input type="radio" name="culmino" value="">No <br><br>
+       <br><br>
+
+       <label for="enviar"></label>
+       <input type="submit" name="enviar" value="enviar" title="Envía todo el formulario">
+       </fieldset>
+   </form>
+
+   <footer>
+    <p name="contacto">
+       <ul>
+         <li><strong>Correo Electrónico:</strong> darrockpop24@gmail.com</li>
+         <li><strong>Teléfonos:</strong> (+504)2781-4014 / (+504)3173-4309</li>
+         <li><strong>Dirección:</strong> San Lorenzo, Valle, Honduras en el Barrio La Ceibita S. (Benito Cerrato), casa del Prof. Selvin Guerra</li>
+         <li><strong>Postal:</strong> 52102</li>
+       </ul>
+    </p>
+
+   </footer>
+  </body>
+</html>
